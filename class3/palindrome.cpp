@@ -85,14 +85,14 @@ int main()
     //     cout<<t<<"  is the smallest";
     // }
 
-    string s ="AsjfafB";
-    string t ="aafjkafasjfkahf";
-    if(s<t){
-        cout<< s<<" is lexiographically smallest";
-    }
-    else{
-        cout<<t<<" is smallest";
-    }
+    // string s ="AsjfafB";
+    // string t ="aafjkafasjfkahf";
+    // if(s<t){
+    //     cout<< s<<" is lexiographically smallest";
+    // }
+    // else{
+    //     cout<<t<<" is smallest";
+    // }
 
     vector<string> v;
     v.push_back("Safayat");
@@ -101,6 +101,19 @@ int main()
     v.push_back("Nishan");
     v.push_back("momo");
     v.push_back("Prity");
+
+    //lexigraphical order to sort a string
+    sort(v.begin(),v.end());
+    for(auto p : v){
+        cout<<p<<endl;
+    }
+    cout<<endl;
+    //reverse lexigraphical order ot reverse sort a string
+
+    sort(v.rbegin(),v.rend());
+    for(auto p : v){
+        cout<<p<<endl;
+    }
 
 
 
