@@ -13,19 +13,15 @@ int main(){
     }
     
     sort(v.begin(),v.end());
-    for(auto p:v){
-        cout<<p<<" ";
-    }
-    cout<<endl;
     
-    for(int i = 0; i<n; i++){
-        if(i)
+    while(!v.empty()) {
+
+        //1 2 3 4 5 6 7
         se += v.back();
         v.pop_back();
-        cout<<se<<" ";
         de += v.back();
         v.pop_back();
-        cout<<de<<" ";
+        
         
     }
     cout<<endl;
