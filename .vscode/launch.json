@@ -1,8 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -21,6 +19,13 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "name": "CMake: CMake Script",
+      "type": "cmake",
+      "request": "launch",
+      "cmakeDebugType": "script",
+      "scriptPath": "${file}"
     }
   ]
 }

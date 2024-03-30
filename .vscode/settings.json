@@ -62,5 +62,6 @@
     "vector": "cpp",
     "iostream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
