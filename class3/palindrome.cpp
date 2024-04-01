@@ -94,28 +94,36 @@ int main()
     //     cout<<t<<" is smallest";
     // }
 
-    vector<string> v;
-    v.push_back("Safayat");
-    v.push_back("Hossain");
-    v.push_back("jake");
-    v.push_back("Nishan");
-    v.push_back("momo");
-    v.push_back("Prity");
+    // vector<string> v;
+    // v.push_back("Safayat");
+    // v.push_back("Hossain");
+    // v.push_back("jake");
+    // v.push_back("Nishan");
+    // v.push_back("momo");
+    // v.push_back("Prity");
 
-    //lexigraphical order to sort a string
-    sort(v.begin(),v.end());
-    for(auto p : v){
-        cout<<p<<endl;
-    }
-    cout<<endl;
-    //reverse lexigraphical order ot reverse sort a string
+    // //lexigraphical order to sort a string
+    // sort(v.begin(),v.end());
+    // for(auto p : v){
+    //     cout<<p<<endl;
+    // }
+    // cout<<endl;
+    
+    
+    // //reverse lexigraphical order ot reverse sort a string
+    // sort(v.rbegin(),v.rend());
+    // for(auto p : v){
+    //     cout<<p<<endl;
+    // }
 
-    sort(v.rbegin(),v.rend());
-    for(auto p : v){
-        cout<<p<<endl;
-    }
+    //removing a specific character from the string
 
-
-
+    // string s ="adajhaaalkf";
+    // s.erase(remove(s.begin(),s.end(),'a'),s.begin()+7);
+    // cout<<s<<endl;
+    // string s ="safayat";
+    // cout<<s.back()<<endl;
+    // s.pop_back();
+    // cout<<s;
 
 }
