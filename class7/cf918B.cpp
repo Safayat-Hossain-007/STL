@@ -14,7 +14,7 @@ int main(){
     string name,ip;
     cin>>name>>ip;
     ip.pop_back();
-    cout<<name<<" "<<ip<<" "<<"; #"<<ipName[ip]<<endl;
+    cout<<name<<" "<<ip<<"; #"<<ipName[ip]<<endl;
    }
    
 }
