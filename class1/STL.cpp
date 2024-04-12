@@ -133,13 +133,13 @@ int main(){
 //    cout<<endl;
 
 
-    vector<int> v ={2,3,4,5}; // 5,4,3,2
-    reverse(v.begin(),v.end());
-    while( !v.empty()){
-        cout<<v.back()<<endl;
-        v.pop_back();
+    // vector<int> v ={2,3,4,5}; // 5,4,3,2
+    // reverse(v.begin(),v.end());
+    // while( !v.empty()){
+    //     cout<<v.back()<<endl;
+    //     v.pop_back();
 
-    }
+    // }
 
 //    cout<<v.back();
 //    cout<<endl;
