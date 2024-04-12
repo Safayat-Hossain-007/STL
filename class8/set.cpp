@@ -121,25 +121,45 @@ int main(){
 
 
     //also doing it for the string
-    set < string, greater<string> > s; 
-    s.insert("safayat");
-    s.insert("louis");
-    s.insert("beast");
-    s.insert("logan");
-    s.insert("safayat");
-    s.insert("beast");
-    s.insert("logan");
-    for(auto u : s){
-        cout<<u<<" "<<endl;
+    //capital letter sob theke chotu
+    // set < string, greater<string> > s; 
+    // s.insert("safayat");
+    // s.insert("louis");
+    // s.insert("beast");
+    // s.insert("logan");
+    // s.insert("safayat");
+    // s.insert("beast");
+    // s.insert("logan");
+    // for(auto u : s){
+    //     cout<<u<<" "<<endl;
+    // }
+    // cout<<endl;
+
+
+    //pair of integer kae desending order e sort korar way
+
+    // set<pair<int,int>,greater<pair<int,int>>> s;
+    // s.insert({2,3});
+    // s.insert({1,2});
+    // s.insert({4,2});
+    // s.insert({2,3});
+    // s.insert({1,2});
+    // s.insert({4,2});
+    // s.insert({2,3});
+    // s.insert({1,2});
+    // s.insert({4,2});
+    // for(auto u: s){
+    //     cout<<u.first<<" "<<u.second<<" "<<endl;
+    // }
+    // cout<<endl;
+
+    //unordered set unique korbe kintu sort korbe na 
+    unordered_set<int> us={2,4,6,3,5,3,2};
+    for(auto u: us){
+        cout<<u<<" ";
     }
     cout<<endl;
-
-
-
-
-
-
-
+    
 
 
 }
