@@ -24,20 +24,33 @@ int main(){
 
 
     //taking elements from the array and pushing it into the queue and also printing out all the elements from the queue untill it become empty
-    int arr[5] ={1,2,3,4,5};
-    queue<int> q;
-    for(int i=0;i<5;i++){
-        q.push(arr[i]);
-    }
-    while(!q.empty()){
-        cout<<q.front()<<" ";
-        q.pop();
-    }
+    // int arr[5] ={1,2,3,4,5};
+    // queue<int> q;
+    // for(int i=0;i<5;i++){
+    //     q.push(arr[i]);
+    // }
+    // while(!q.empty()){
+    //     cout<<q.front()<<" ";
+    //     q.pop();
+    // }
 
     // for(int i=0;i<q.size();i++){
     //     cout<<q.front()<<" ";
     //     q.pop();
     // }
+
+    int n;
+    cin>>n;
+    deque<int> dq;
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+        dq.push_front(x);
+    }
+    while(!dq.empty()){
+        cout<<dq.front()<<" ";
+        dq.pop_front();
+    }
 
     
 }
