@@ -22,6 +22,8 @@ int main(){
     //     q.pop();
     // }
 
+
+    //taking elements from the array and pushing it into the queue and also printing out all the elements from the queue untill it become empty
     int arr[5] ={1,2,3,4,5};
     queue<int> q;
     for(int i=0;i<5;i++){
@@ -31,6 +33,11 @@ int main(){
         cout<<q.front()<<" ";
         q.pop();
     }
+
+    // for(int i=0;i<q.size();i++){
+    //     cout<<q.front()<<" ";
+    //     q.pop();
+    // }
 
     
 }
